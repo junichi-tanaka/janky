@@ -3,7 +3,7 @@ require 'cinch'
 module Janky
   module ChatService
     class Irc
-      def initialize
+      def initialize(settings)
         @rooms = {}
         @bot = Cinch::Bot.new do
           configure do |c|
