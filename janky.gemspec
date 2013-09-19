@@ -58,6 +58,7 @@ lib/janky/chat_service.rb
 lib/janky/chat_service/campfire.rb
 lib/janky/chat_service/hipchat.rb
 lib/janky/chat_service/mock.rb
+lib/janky/chat_service/irc.rb
 lib/janky/commit.rb
 lib/janky/database/migrate/1312115512_init.rb
 lib/janky/database/migrate/1312117285_non_unique_repo_uri.rb

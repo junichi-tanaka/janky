@@ -1,4 +1,4 @@
-require 'chinch'
+require 'cinch'
 
 module Janky
   module ChatService
